@@ -4,7 +4,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
-def load_and_split_syllabus(file_path: str, chunk_size: int = 300, chunk_overlap: int = 50):
+def load_and_split_syllabus(file_path: str, chunk_size: int = 600, chunk_overlap: int = 100):
     """
     Загружает текст из файла и разбивает его на чанки.
     """
